@@ -1,3 +1,10 @@
-# Strings
+a = int(input("Enter a number"))
+b = int(input("Enter a number"))
+c = int(input("Enter a number"))
 
-text = "X-DSPAM-Confidence:    0.8475"
+if a>=b and a>=c:
+  print(f"{a} is the largest number")
+elif b>=a and b>=c:
+  print(f"{b} is the largest number")
+else:
+  print(f"{c} is the largest number")

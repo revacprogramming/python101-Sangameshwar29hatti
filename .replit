@@ -1,2 +1,2 @@
-language = "python3"
-run = "run"
+str1 = "hello"
+str2
